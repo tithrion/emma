@@ -1,10 +1,12 @@
 # emma
 Configures the operating mode of emagic MIDI devices (UNITOR8,AMT8,MT4)
 
-Install: 
+Install:
   You'll need the following Perl-Modules installed:
+
     - MIDI::ALSA
     - String::HexConvert
+
   Find them in your software repo or do a cpan install [NAME].
 
 Usage:
@@ -24,3 +26,4 @@ Options:
 
     -v/--version
         version information
+
