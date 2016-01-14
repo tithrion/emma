@@ -2,7 +2,10 @@
 Configures the operating mode of emagic MIDI devices (UNITOR8,AMT8,MT4)
 
 Install:
-  You'll need the following Perl-Modules installed:
+
+  emma.pl is a Perl script, so of course you need Perl installed.
+
+  Additionally, you'll need the following Perl-Modules installed:
 
     - MIDI::ALSA
     - String::HexConvert
