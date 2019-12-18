@@ -1,5 +1,5 @@
 # emma
-Configures the operating mode of emagic MIDI devices (UNITOR8,AMT8,MT4)
+Configures the operating mode of emagic MIDI devices (UNITOR8,AMT8,MT4) on Linux
 
 Install:
 
