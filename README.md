@@ -1,5 +1,7 @@
 # Emagic MIDI Interface Management (EMMA)
 
+***The state of the current code in this branch is development. Don't expect any of the features working or not frying your hardware. You've been warned!***
+
 This is a Python3 and PyQt6 application designed to configure Emagic MIDI interfaces from the Unitor8 family (mt4, amt8, Unitor8) via MIDI/SysEx.
 
 ## Features (Planned/Implemented)
