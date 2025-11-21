@@ -1,0 +1,142 @@
+--- Start Log: Fr 21. Nov 15:43:51 CET 2025 ---
+DEBUG: _create_patch_editor_tab - Patch Editor tab layout set.
+DEBUG: _create_device_settings_tab - Device Settings tab layout set.
+DEBUG: _create_connected_devices_tab - Connected Devices tab layout set.
+DEBUG: All available MIDI IN ports: ['Midi Through:Midi Through Port-0 14:0', 'Unitor8:Unitor8 MIDI 1 24:0', 'Unitor8:Unitor8 MIDI 2 24:1', 'Unitor8:Unitor8 MIDI 3 24:2', 'Unitor8:Unitor8 MIDI 4 24:3', 'Unitor8:Unitor8 MIDI 5 24:4', 'Unitor8:Unitor8 MIDI 6 24:5', 'Unitor8:Unitor8 MIDI 7 24:6', 'Unitor8:Unitor8 MIDI 8 24:7', 'Unitor8:Unitor8 Broadcast 24:8', 'Blofeld:Blofeld 28:0', 'Nord Stage 2:Nord Stage 2 MIDI Input 36:0']
+DEBUG: All available MIDI OUT ports: ['Midi Through:Midi Through Port-0 14:0', 'Unitor8:Unitor8 MIDI 1 24:0', 'Unitor8:Unitor8 MIDI 2 24:1', 'Unitor8:Unitor8 MIDI 3 24:2', 'Unitor8:Unitor8 MIDI 4 24:3', 'Unitor8:Unitor8 MIDI 5 24:4', 'Unitor8:Unitor8 MIDI 6 24:5', 'Unitor8:Unitor8 MIDI 7 24:6', 'Unitor8:Unitor8 MIDI 8 24:7', 'Unitor8:Unitor8 Broadcast 24:8', 'Blofeld:Blofeld 28:0', 'Nord Stage 2:Nord Stage 2 MIDI Input 36:0', 'Client-128:qjackctl 128:0']
+DEBUG: Checking for Unitor8/AMT8 port: Unitor8 MIDI 1
+DEBUG: Checking for Unitor8/AMT8 port: Unitor8 MIDI 2
+DEBUG: Checking for Unitor8/AMT8 port: Unitor8 MIDI 3
+DEBUG: Checking for Unitor8/AMT8 port: Unitor8 MIDI 4
+DEBUG: Checking for Unitor8/AMT8 port: Unitor8 MIDI 5
+DEBUG: Checking for Unitor8/AMT8 port: Unitor8 MIDI 6
+DEBUG: Checking for Unitor8/AMT8 port: Unitor8 MIDI 7
+DEBUG: Checking for Unitor8/AMT8 port: Unitor8 MIDI 8
+DEBUG: _detect_emagic_devices - Detected Emagic devices: [{'name': 'AMT8', 'type': 'AMT8 (8 IN, 8 OUT)', 'in_ports': ['Unitor8:Unitor8 MIDI 1 24:0', 'Unitor8:Unitor8 MIDI 2 24:1', 'Unitor8:Unitor8 MIDI 3 24:2', 'Unitor8:Unitor8 MIDI 4 24:3', 'Unitor8:Unitor8 MIDI 5 24:4', 'Unitor8:Unitor8 MIDI 6 24:5', 'Unitor8:Unitor8 MIDI 7 24:6', 'Unitor8:Unitor8 MIDI 8 24:7'], 'out_ports': ['Unitor8:Unitor8 MIDI 1 24:0', 'Unitor8:Unitor8 MIDI 2 24:1', 'Unitor8:Unitor8 MIDI 3 24:2', 'Unitor8:Unitor8 MIDI 4 24:3', 'Unitor8:Unitor8 MIDI 5 24:4', 'Unitor8:Unitor8 MIDI 6 24:5', 'Unitor8:Unitor8 MIDI 7 24:6', 'Unitor8:Unitor8 MIDI 8 24:7']}]
+DEBUG: _open_midi_ports called with IN='Unitor8:Unitor8 MIDI 1 24:0', OUT='Unitor8:Unitor8 MIDI 1 24:0'
+DEBUG: MidiHandler created for IN='Unitor8:Unitor8 MIDI 1 24:0', OUT='Unitor8:Unitor8 MIDI 1 24:0'
+DEBUG: MidiHandler.start called
+DEBUG: _open_midi_ports: MidiHandler started. isRunning: True
+DEBUG: DeviceScanner: Starting scan of 8 ports
+DEBUG: DeviceScanner: Scanning port 1
+DEBUG: Port 1 scan result: Scanning... - 
+DEBUG: Sent Identity Request to port 1
+DEBUG: Port 1 - Identity reply: {'manufacturer_id': 66, 'manufacturer_name': 'Yamaha', 'device_family': 25, 'device_member': 0, 'software_version': (29, 0, 1, 0)}
+DEBUG: Port 1 scan result: Connected - Yamaha (Family:25, Member:0)
+DEBUG: DeviceScanner: Scanning port 2
+DEBUG: Port 2 scan result: Scanning... - 
+DEBUG: Sent Identity Request to port 2
+DEBUG: Port 2 scan result: No Response - -
+DEBUG: DeviceScanner: Scanning port 3
+DEBUG: Port 3 scan result: Scanning... - 
+DEBUG: Sent Identity Request to port 3
+DEBUG: Port 3 - Identity reply: {'manufacturer_id': 62, 'manufacturer_name': 'Waldorf', 'device_family': 19, 'device_member': 0, 'software_version': (49, 46, 50, 52)}
+DEBUG: Port 3 scan result: Connected - Waldorf (Family:19, Member:0)
+DEBUG: DeviceScanner: Scanning port 4
+DEBUG: Port 4 scan result: Scanning... - 
+DEBUG: Sent Identity Request to port 4
+DEBUG: Port 4 - Identity reply: {'manufacturer_id': 24, 'manufacturer_name': 'E-mu', 'device_family': 516, 'device_member': 3, 'software_version': (50, 46, 50, 54)}
+DEBUG: Port 4 scan result: Connected - E-mu (Family:516, Member:3)
+DEBUG: DeviceScanner: Scanning port 5
+DEBUG: Port 5 scan result: Scanning... - 
+DEBUG: Sent Identity Request to port 5
+DEBUG: Port 5 scan result: No Response - -
+DEBUG: DeviceScanner: Scanning port 6
+DEBUG: Port 6 scan result: Scanning... - 
+DEBUG: Sent Identity Request to port 6
+DEBUG: Port 6 scan result: No Response - -
+DEBUG: DeviceScanner: Scanning port 7
+DEBUG: Port 7 scan result: Scanning... - 
+DEBUG: Sent Identity Request to port 7
+DEBUG: Port 7 scan result: No Response - -
+DEBUG: DeviceScanner: Scanning port 8
+DEBUG: Port 8 scan result: Scanning... - 
+DEBUG: Sent Identity Request to port 8
+DEBUG: Port 8 scan result: No Response - -
+DEBUG: DeviceScanner: Scan complete
+DEBUG: Device scan completed
+DEBUG: DeviceScanner: Starting scan of 8 ports
+DEBUG: DeviceScanner: Scanning port 1
+DEBUG: Port 1 scan result: Scanning... - 
+DEBUG: Sent Identity Request to port 1
+DEBUG: Port 1 - Identity reply: {'manufacturer_id': 66, 'manufacturer_name': 'Yamaha', 'device_family': 25, 'device_member': 0, 'software_version': (29, 0, 1, 0)}
+DEBUG: Port 1 scan result: Connected - Yamaha (Family:25, Member:0)
+DEBUG: DeviceScanner: Scanning port 2
+DEBUG: Port 2 scan result: Scanning... - 
+DEBUG: Sent Identity Request to port 2
+DEBUG: Port 2 scan result: No Response - -
+DEBUG: DeviceScanner: Scanning port 3
+DEBUG: Port 3 scan result: Scanning... - 
+DEBUG: Sent Identity Request to port 3
+DEBUG: Port 3 - Identity reply: {'manufacturer_id': 62, 'manufacturer_name': 'Waldorf', 'device_family': 19, 'device_member': 0, 'software_version': (49, 46, 50, 52)}
+DEBUG: Port 3 scan result: Connected - Waldorf (Family:19, Member:0)
+DEBUG: DeviceScanner: Scanning port 4
+DEBUG: Port 4 scan result: Scanning... - 
+DEBUG: Sent Identity Request to port 4
+DEBUG: Port 4 - Identity reply: {'manufacturer_id': 24, 'manufacturer_name': 'E-mu', 'device_family': 516, 'device_member': 3, 'software_version': (50, 46, 50, 54)}
+DEBUG: Port 4 scan result: Connected - E-mu (Family:516, Member:3)
+DEBUG: DeviceScanner: Scanning port 5
+DEBUG: Port 5 scan result: Scanning... - 
+DEBUG: Sent Identity Request to port 5
+DEBUG: Port 5 scan result: No Response - -
+DEBUG: DeviceScanner: Scanning port 6
+DEBUG: Port 6 scan result: Scanning... - 
+DEBUG: Sent Identity Request to port 6
+DEBUG: Port 6 scan result: No Response - -
+DEBUG: DeviceScanner: Scanning port 7
+DEBUG: Port 7 scan result: Scanning... - 
+DEBUG: Sent Identity Request to port 7
+DEBUG: Port 7 scan result: No Response - -
+DEBUG: DeviceScanner: Scanning port 8
+DEBUG: Port 8 scan result: Scanning... - 
+DEBUG: Sent Identity Request to port 8
+DEBUG: Port 8 scan result: No Response - -
+DEBUG: DeviceScanner: Scan complete
+DEBUG: Device scan completed
+DEBUG: DeviceScanner: Starting scan of 8 ports
+DEBUG: DeviceScanner: Scanning port 1
+DEBUG: Port 1 scan result: Scanning... - 
+DEBUG: Sent Identity Request to port 1
+DEBUG: Port 1 - Identity reply: {'manufacturer_id': 66, 'manufacturer_name': 'Yamaha', 'device_family': 25, 'device_member': 0, 'software_version': (29, 0, 1, 0)}
+DEBUG: Port 1 scan result: Connected - Yamaha (Family:25, Member:0)
+DEBUG: DeviceScanner: Scanning port 2
+DEBUG: Port 2 scan result: Scanning... - 
+DEBUG: Sent Identity Request to port 2
+DEBUG: Port 2 scan result: No Response - -
+DEBUG: DeviceScanner: Scanning port 3
+DEBUG: Port 3 scan result: Scanning... - 
+DEBUG: Sent Identity Request to port 3
+DEBUG: Port 3 - Identity reply: {'manufacturer_id': 62, 'manufacturer_name': 'Waldorf', 'device_family': 19, 'device_member': 0, 'software_version': (49, 46, 50, 52)}
+DEBUG: Port 3 scan result: Connected - Waldorf (Family:19, Member:0)
+DEBUG: DeviceScanner: Scanning port 4
+DEBUG: Port 4 scan result: Scanning... - 
+DEBUG: Sent Identity Request to port 4
+DEBUG: Port 4 - Identity reply: {'manufacturer_id': 24, 'manufacturer_name': 'E-mu', 'device_family': 516, 'device_member': 3, 'software_version': (50, 46, 50, 54)}
+DEBUG: Port 4 scan result: Connected - E-mu (Family:516, Member:3)
+DEBUG: DeviceScanner: Scanning port 5
+DEBUG: Port 5 scan result: Scanning... - 
+DEBUG: Sent Identity Request to port 5
+DEBUG: Port 5 scan result: No Response - -
+DEBUG: DeviceScanner: Scanning port 6
+DEBUG: Port 6 scan result: Scanning... - 
+DEBUG: Sent Identity Request to port 6
+DEBUG: Port 6 scan result: No Response - -
+DEBUG: DeviceScanner: Scanning port 7
+DEBUG: Port 7 scan result: Scanning... - 
+DEBUG: Sent Identity Request to port 7
+DEBUG: Port 7 scan result: No Response - -
+DEBUG: DeviceScanner: Scanning port 8DEBUG:src.emagic_sysex:EmagicSysEx.get_computer_mode_message: Generated sysex_data: 002031640f, len: 5
+DEBUG:src.emagic_sysex:EmagicGlobalSettings.get_firmware_request_message: Generated sysex_data: 002031640b0000, len: 7
+DEBUG:src.emagic_sysex:EmagicGlobalSettings.parse_firmware_response: Parsed firmware version: 204
+DEBUG:src.emagic_sysex:EmagicSysEx.get_computer_mode_message: Generated sysex_data: 002031640f, len: 5
+Traceback (most recent call last):
+  File "/home/steffen/Dokumente/Musik/emagic/emma/emma2/src/main.py", line 432, in _load_from_device
+    self._continue_sysex_sequence() # Start the sequence
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/steffen/Dokumente/Musik/emagic/emma/emma2/src/main.py", line 876, in _continue_sysex_sequence
+    if self._send_computer_mode_message():
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/steffen/Dokumente/Musik/emagic/emma/emma2/src/main.py", line 459, in _send_computer_mode_message
+    self.midi_worker.send_message(computer_mode_msg)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MidiHandler' object has no attribute 'send_message'
