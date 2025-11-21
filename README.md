@@ -1,4 +1,4 @@
-# Emagic MIDI Interface Configurator
+# Emagic MIDI Interface Management (EMMA)
 
 This is a Python3 and PyQt6 application designed to configure Emagic MIDI interfaces from the Unitor8 family (mt4, amt8, Unitor8) via MIDI/SysEx.
 
